@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>kids literature_icon_hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Big-icons" transform="translate(-710.000000, -357.000000)">
+            <g id="kids-literature_icon_hover" transform="translate(710.000000, 357.000000)">
+                <ellipse id="Oval-2821" fill="#FD6462" cx="25" cy="24.5830222" rx="25" ry="24.5830222"></ellipse>
+                <ellipse id="Oval-2821-Copy" fill="#D03432" cx="25" cy="24.5830222" rx="25" ry="24.5830222"></ellipse>
+                <g id="Group-38" transform="translate(13.000000, 15.733134)">
+                    <ellipse id="Oval-2824" fill="#FAF000" cx="12.2857143" cy="10.8951954" rx="10.2857143" ry="9.91187453"></ellipse>
+                    <ellipse id="Oval-2825" stroke="#FAF000" stroke-width="2.57142857" cx="3.42857143" cy="3.30395818" rx="3.42857143" ry="3.30395818"></ellipse>
+                    <ellipse id="Oval-2825-Copy" stroke="#FAF000" stroke-width="2.57142857" cx="20.4285714" cy="3.30395818" rx="3.42857143" ry="3.30395818"></ellipse>
+                    <path d="M12.2857143,16.4411252 C14.6526489,16.4411252 16.5714286,14.9618928 16.5714286,13.137167 C16.5714286,11.3124413 14.6526489,9.83320886 12.2857143,9.83320886 C9.91877964,9.83320886 8,11.3124413 8,13.137167 C8,14.9618928 9.91877964,16.4411252 12.2857143,16.4411252 Z" id="Oval-2825-Copy-2" fill="#D03432"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

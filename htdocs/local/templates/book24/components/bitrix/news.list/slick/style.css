@@ -1,0 +1,206 @@
+/*********** Slick slider **************/
+.nopadding {
+   padding: 0 !important;
+}
+
+.v-slick-conteiner {
+    //display: none;
+    min-height: 450px;
+    visibility: hidden;
+}
+
+.hover_button > button,  .hover_button  > ul{
+    display: none !important;
+}
+
+.hover_button:hover > button,  .hover_button:hover  > ul{
+    display: block !important;
+}
+
+.v-slick-conteiner .slick-slide {
+    height: 450px;
+}
+
+.v-slick-conteiner .slick-list, .v-slick-conteiner.slick-track, .v-slick-conteiner .slick-slide div  {
+    height: 100%;
+}
+
+.v-slick-conteiner img{
+    position: absolute;
+    //bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.v-slick-conteiner .right img{
+    //left: 0;
+}
+
+.v-slick-conteiner.v-big_button > button {
+    height: 80px;
+    width: 60px;
+    position: absolute;
+    top: 179px;
+    border: none;
+}
+
+.v-slick-conteiner.v-big_button > button.slick-prev{
+    background: url(/local/templates/book24/images/left.png) no-repeat center center;
+}
+
+.v-slick-conteiner.v-big_button > button.slick-next{
+    right: 0px;
+    background: url(/local/templates/book24/images/right.png) no-repeat center center;
+}
+
+.v-slick-conteiner .right .slick-banner-content {
+    float: right;
+}
+
+.v-slick-conteiner .slick-slide {
+    margin: 0px;
+}
+
+.v-slick-conteiner .slick-slide > div > a:hover{
+    text-decoration: none;
+}
+
+.v-slick-conteiner .slick-banner-content h1{
+    margin-top: 80px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.v-slick-conteiner .slick-banner-content p{
+    font-size: 18px;
+}
+
+.v-slick-conteiner .slick-banner-content .modern-card-buttons {
+    float: left;
+    height: auto;
+}
+
+.v-slick-conteiner .slick-banner-content .modern-card-buttons a,
+.v-slick-conteiner .slick-banner-content .modern-card-buttons span{
+    margin: 0 10px 10px 0;
+}
+
+.v-slick-conteiner .slick-buttons {
+    padding-top: 20px;
+    height: auto !important;
+}
+
+.v-slick-conteiner .slick-banner-container .full-width .slick-prev {
+    left: 30px;
+}
+
+.v-slick-conteiner .slick-banner-container .slick-next {
+    right: 15px;
+}
+
+.v-slick-conteiner .slick-prev, .v-slick-conteiner .slick-next {
+    margin-top: -40px;
+}
+
+.v-slick-conteiner .slick-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 538px;
+}
+
+.v-slick-conteiner .slick-dots li{
+   float: left;
+   list-style: none;
+   margin: 0;
+   margin-left: 10px;
+   padding: 0;
+}
+.v-slick-conteiner .slick-dots li button {
+  background: url(/local/templates/book24/images/bullet.png) no-Repeat top left;
+  width: 20px;
+  height: 20px;
+  margin-right: 0px;
+  float: left;
+  margin-top: 0px;
+  box-shadow: none;
+  border: none;
+  font-size: 0;
+}
+.v-slick-conteiner .slick-dots li.slick-active button{
+    background-position: bottom left;
+}
+.button-heder2-slider {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 20px;
+    //min-width: 150px;
+    display: block;
+    text-align: center;
+    font-weight: normal;
+}
+
+.button-heder2-slider:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .v-slick-conteiner .slick-banner-content {
+        margin: 0 auto;
+        float: none !important;
+    }
+    
+    .v-slick-conteiner .slick-banner-content p{
+        margin-top: 20px;
+    }
+    
+    .v-slick-conteiner .slick-buttons {
+        padding-top: 15px;
+    }
+}
+/********* End Slick slider ************/
+
+/****календарь на слайдере***/
+.slider-calendar {
+    position: absolute;
+    width: 243px;
+    background-color: rgba(0,0,0,0.7);
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 40px 13px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.slider-calendar .slider-calendar-name {
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.slider-calendar .slider-calendar-content #calendar .month-wrap .month-name{
+    color: #fff;
+    font-size: 14px;
+}
+
+.slider-calendar .slider-calendar-content #calendar .week-days td{
+    color: #fff;
+}
+
+.slider-calendar .slider-calendar-content #calendar .main-days td a{
+    color: #fff;
+}
+.slider-calendar .slider-calendar-content #calendar .main-days td:hover {
+    box-shadow: 1px 1px 1px #fff inset,-1px -1px 1px #fff inset;
+}
+
+.slider-calendar .slider-calendar-content #calendar .main-days td.today{
+    background: #fff2df;
+}
+
+.slider-calendar .slider-calendar-content #calendar .main-days td.today a{
+    color: #6d6d6d;
+}

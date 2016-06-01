@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>gifts_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Big-icons" transform="translate(-783.000000, -187.000000)">
+            <g id="Group-44" transform="translate(783.000000, 187.000000)">
+                <ellipse id="Oval-2821-Copy" fill="#5B7AAA" cx="25" cy="25" rx="25" ry="25"></ellipse>
+                <g id="Group-39" stroke-width="1" transform="translate(14.000000, 13.000000)" fill="#FAF000">
+                    <path d="M2,13 L20,13 L20,22.2153168 C20,22.6486854 19.6564991,23 19.2149883,23 L2.78501173,23 C2.35146173,23 2,22.6440947 2,22.2153168 L2,13 Z M0,8.79027128 C0,8.3538165 0.352651975,8 0.785103318,8 L3.97384208,8 L21.2138475,8 C21.6480275,8 22,8.35497332 22,8.79027128 L22,11.2097287 C22,11.6461835 21.6488617,12 21.2089071,12 L20.4178143,12 C26.6963571,12 0.792004654,12 0.792004654,12 C0.354592562,12 0,11.6450267 0,11.2097287 L0,8.79027128 Z" id="Rectangle-310"></path>
+                    <g id="Group-4" transform="translate(2.500000, 0.000000)">
+                        <path d="M7.90670231,6.68497524 C8.60878207,5.67610324 5.25429608,-3.47738646 1.01130249,1.44430432 C-3.23169109,6.3659951 7.20462256,7.69384724 7.90670231,6.68497524 Z" id="Path-383"></path>
+                        <path d="M16.9067023,6.68497524 C17.6087821,5.67610324 14.2542961,-3.47738646 10.0113025,1.44430432 C5.76830891,6.3659951 16.2046226,7.69384724 16.9067023,6.68497524 Z" id="Path-383" transform="translate(13.000000, 3.500000) scale(-1, 1) translate(-13.000000, -3.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
