@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/local/templates/book24/components/bitrix/catalog/argo/bitrix/catalog.smart.filter/visual_vertical/script.js" => "146462902319964","/local/templates/book24/components/bitrix/catalog/argo/bitrix/catalog.section/.default/script.js" => "146472316941807",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>

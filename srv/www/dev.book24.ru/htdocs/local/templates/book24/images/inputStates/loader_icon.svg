@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Loader icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1920_Rubrika_MVP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ui-kit" transform="translate(-714.000000, -2219.000000)">
+            <g id="Filtr_list_avtori_step-2" transform="translate(478.000000, 2138.000000)">
+                <g id="Loader-icon" transform="translate(237.000000, 82.000000)">
+                    <g id="Group-4" transform="translate(1.724138, 0.183962)">
+                        <path d="M0.108789655,6.5 C0.108789655,3.01183019 2.89165172,0.183962264 6.3243069,0.183962264 C9.25585862,0.183962264 11.7133414,2.24630189 12.3684448,5.02118868" id="Fill-1" fill="#FFFFFF"></path>
+                        <path d="M0.108789655,6.5 C0.108789655,3.01183019 2.89165172,0.183962264 6.3243069,0.183962264 C9.25585862,0.183962264 11.7133414,2.24630189 12.3684448,5.02118868" id="Stroke-3" stroke="#686259"></path>
+                    </g>
+                    <polyline id="Stroke-5" stroke="#686259" points="16 3 14.377724 6 11 4.55952381"></polyline>
+                    <g id="Group-10" transform="translate(1.965517, 8.316038)">
+                        <path d="M12.2860379,0.183962264 C12.2860379,3.67213208 9.50317586,6.5 6.07052069,6.5 C3.13896897,6.5 0.681486207,4.43766038 0.0263827586,1.66277358" id="Fill-7"></path>
+                        <path d="M12.2860379,0.183962264 C12.2860379,3.67213208 9.50317586,6.5 6.07052069,6.5 C3.13896897,6.5 0.681486207,4.43766038 0.0263827586,1.66277358" id="Stroke-9" stroke="#686259"></path>
+                    </g>
+                    <polyline id="Stroke-11" stroke="#686259" points="0 12 1.62227603 9 5 10.4404762"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

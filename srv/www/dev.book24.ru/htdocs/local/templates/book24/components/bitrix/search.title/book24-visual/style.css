@@ -1,0 +1,63 @@
+.bx-searchtitle .bx-block-title {
+	font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #343434;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+
+div.title-search-result {
+    display:none;
+    overflow:hidden;
+    z-index:999;
+    min-width: 370px;
+    margin-top:-3px;
+        
+    width: 100%;
+    background: #fff;
+    border: 2px solid rgba(104,97,89,.1);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    -webkit-transform: scale(.98);
+    -ms-transform: scale(.98);
+    transform: scale(.98);
+}
+
+div.title-search-fader {
+	display:none;
+	background-image: url('images/fader.png');
+	background-position: right top;
+	background-repeat: repeat-y;
+	position:absolute;
+}
+
+p.title-search-preview {
+	font-size:12px;
+}
+
+/*========================*/
+
+.citySearchDropDown .cityList {
+    padding: 15px 0;
+}
+
+.citySearchDropDown .cityList .cityItem {
+    font-family: 'Open Sans',sans-serif;
+    line-height: 20px;
+    padding: 10px 25px;
+    font-size: 13px;
+    display: block;
+}
+
+.citySearchDropDown .cityList .cityItem:hover {
+    background: #fff8e1;
+}
+
+.bx-searchtitle form {
+    margin-bottom: 30px;
+}

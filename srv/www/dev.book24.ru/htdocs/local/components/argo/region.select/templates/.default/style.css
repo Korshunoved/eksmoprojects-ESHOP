@@ -1,0 +1,231 @@
+.bxr-region-change-wrap {
+    position: relative;
+}
+
+.bxr-region-confirm {
+    position: absolute;
+    background: #fff;
+    bottom: -112px;
+    left: -38px;
+    border: 1px solid #E6E6E6;
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.2);
+    padding: 10px;
+    width: 330px;
+    z-index: 1040;
+}
+
+.bxr-region-head {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+#correct-region {
+    padding: 10px 30px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+#not-correct-region {
+    background: #d5dadd;
+    padding: 10px 30px;
+    display: block;
+    float: left;
+    color: #000;
+}
+
+ul.country-tabs {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+}
+
+ul.country-tabs li {
+    float: left;
+    list-style: none;
+    margin: 4px 0px 0 0;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px 4px 0 0;
+    font-size: 14px;
+    //color: #fff;
+}
+
+ul.country-tabs li.active {
+    color: #393939;
+    background: #f9f9f9;
+    box-shadow: inset 1px 1px 1px 1px rgba(142,113,99,0.24);
+}
+
+.regions-list{
+    width: 750px;
+    height: 470px;
+    overflow: hidden;
+    margin-top: 26px;
+}
+.regions-sections-block{
+    float: left;
+    width: 220px;
+}
+.regions-elements-block{
+    float: left;
+    width: 530px;
+    overflow: hidden;
+}
+.form-header {
+    width: 100%;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #decd7f;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.form-header .title-h {
+    color: #674e3e;
+    font-size: 25px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    float: left;
+}
+.regions-block-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.regions-sections{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 420px;
+    overflow-y: scroll;
+}
+.regions-sections li {
+    padding: 10px 10px 10px 10px;
+    margin-right: 3px;
+}
+.regions-sections li.active{
+    /*    background: #e1dcd3;
+        border-top: 1px solid #c8c4bc;
+        border-bottom: 1px solid #fff;*/
+    border-radius: 4px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+.regions-sections li a{
+    font-size: 15px;
+    /*border-bottom: 1px dotted #674e3e;*/
+    text-decoration: none;
+}
+.regions-sections li a:hover{
+    border: none;
+}
+.regions-sections li.active a{
+    //color: #fff;
+    text-decoration: none;
+    background: none;
+    border: 0;
+    cursor: default;
+}
+.regions-elements{
+    min-height: 300px;
+    height: 420px;
+    overflow-y: scroll;
+    /*    overflow: visible;*/
+    background: #fff;
+    border-radius: 4px;
+    border-bottom: 1px solid #dfdfdf;
+    margin: 0 0 0 25px;
+}
+.regions-elements-block .regions-block-title{
+    margin-left: 47px;
+}
+.regions-sections-block .regions-block-title{
+    margin-left: 10px;
+}
+.regions-elements-block ul{
+    width: 33%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.regions-elements-block li{
+    font-size: 15px;
+    margin: 15px;
+}
+.regions-elements-block li.active a {
+    font-weight: bold;
+    color: #F63;
+}
+.tooltip-icon {
+    margin: -2px 7px 0;
+    float: left;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.tooltip{
+    display: none;
+    position: absolute;
+    top: -27px;
+    left: -28px;
+    /*width: 120px;*/
+    max-width: 400px;
+    z-index: 3;
+    padding: 5px 10px;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    color: #fff !important;
+    background: black;
+    background: rgba(0,0,0,0.8);
+    white-space: nowrap;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.tooltip-icon:hover .tooltip{
+    display: block;
+}
+.tooltip:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 32px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 5px solid rgba(0,0,0,0.8);
+}
+.region-confirm{
+    font-size: 15px;
+    overflow: hidden;
+    margin: 10px 0;
+    background: #f7f3df;
+    padding: 10px;
+    width: auto;
+    float: left;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.region-confirm span, .region-confirm a{
+    float: left;
+}
+.region-confirm a{
+    display: inline-block;
+    line-height: 30px;
+}
+.region-confirm span{
+    margin: 6px 0 0 0;
+}
+
+
+#title-search-region {
+    padding-top: 54px;
+    position: relative;
+}

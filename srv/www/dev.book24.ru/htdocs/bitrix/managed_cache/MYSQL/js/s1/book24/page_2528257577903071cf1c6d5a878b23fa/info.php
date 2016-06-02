@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/local/templates/book24/components/bitrix/catalog.element/book24-product/script.js" => "146478605275014","/local/templates/book24/components/bitrix/iblock.vote/argo/script.js" => "14646288153008",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>
